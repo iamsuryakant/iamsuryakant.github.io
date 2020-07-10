@@ -498,19 +498,7 @@
                 <h2>Contact Form</h2>
                 <form action="https://formspree.io/suryakantthakur825@gmail.com"
                       method="POST">
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+                </form>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -520,7 +508,7 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="_replyto" required data-error="Please enter your email">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
@@ -532,7 +520,7 @@
                     </div>
                     <div class="col-md-12">
                       <div class="form-group"> 
-                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <textarea class="form-control" id="message" placeholder="Your Message"  name="message" rows="5" data-error="Write your message" required></textarea>
                         <div class="help-block with-errors"></div>
                       </div>
                       <div class="submit-button">
