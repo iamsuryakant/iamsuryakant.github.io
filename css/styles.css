@@ -346,6 +346,7 @@ section .button button:hover{
 .lin{
   color: #D6274D;
 }
+
 .projects{
   background: #f3f4ed;
 }
@@ -369,7 +370,7 @@ section .button button:hover{
 }
 .projects .boxes .box:hover{
   background: #536162;
-  color: #fff;
+  color:black;
 }
 .projects .boxes .box .icon{
   height: 50px;
