@@ -118,7 +118,7 @@ nav.sticky .social-icons a{
   color: #1260A2;
 }
 .navbar .social-icons .git:hover{
-  color: black;
+  color: gray;
 }
 
 nav .menu-btn,
@@ -451,7 +451,6 @@ section .button button:hover{
 }
 
 /* Contact */
-/* .red: #e74c3c; */ */
 
 *:before, 
 *:after {
@@ -520,12 +519,10 @@ form {
   }
 }
 
-
-/* Clearfix */
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; 
+    display: table; 
 }
 
 .cf:after {
@@ -597,6 +594,7 @@ footer .social-icons .git:hover{
 }
 
 /* Media Query */
+
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
@@ -722,10 +720,15 @@ footer .social-icons .git:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: red;
-  padding: 7px 12px;;
-  font-size: 18px;
-  border-radius: 6px;
+  background: gray;
+  padding: 15px 7px;;
+  font-size: 12px;
+  border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
+}
+
+
+.scroll-button a:hover{
+  background:red;
 }
