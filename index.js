@@ -35,9 +35,9 @@ cancelBtn.onclick = function(){
 }
 
 var typed = new Typed(".typing", {
-        strings: ["Developer", "Blogger", "Programmer", "Freelancer"],
+        strings: ["Developer", "Programmer", "Blogger", "Freelancer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 80,
         loop: true
     });
 
