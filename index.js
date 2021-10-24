@@ -51,4 +51,12 @@ for (var i = 0; i < navLinks.length; i++) {
   });
 }
 
+// loader
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+});
+
+
  
