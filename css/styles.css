@@ -61,9 +61,19 @@ nav .navbar .logo a span{
 }
 
 
+nav .navbar .logo a span:hover{
+  color: #ffc107;
+}
+
+
 nav.sticky .navbar .logo a{
   color: #fff;
 }
+
+ nav .navbar .logo a:hover{
+  color: #2acaea;
+}
+
 nav .navbar .menu{
   display: flex;
   position: relative;
@@ -80,7 +90,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: gray;
+  color: #2acaea;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -164,7 +174,7 @@ nav.sticky .menu-btn{
 
 .home .text-1{
   font-size: 25px;
-  color: white;
+  color: #0ff1ce;
 }
 .home .text-2{
   color: white;
@@ -173,16 +183,26 @@ nav.sticky .menu-btn{
   margin-left: -3px;
 }
 
+.home .text-2:hover{
+  color:#e8175d;
+}
+
 .home .text-3{
   font-size: 40px;
+  /* font-style: italic; */
   margin: 5px 0;
   color: goldenrod;
   /* text-decoration: underline; */
 }
 
 .home .text-3 span{
-    color: crimson;
-    font-weight: 500;
+    color: #2acaea;
+    font-weight: 900;
+}
+
+.home .text-3 span:hover{
+  color: red;
+  
 }
 
 .home .button{
@@ -192,25 +212,25 @@ nav.sticky .menu-btn{
 .home .button button{
   outline: none;
   padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 10px;
   font-weight: 400;
-  background: crimson;
+  background: red;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
+  border-radius:50px;
 }
 .home .button button:hover{
-  border-color: red;
-  background-color: #fff;
+  border-color: #2acaea;
+  background-color: #2acaea;
   color: black;
 }
 
 /* About section */
 .des{
-  color: #D6274D;
+  color: #e90f3c;
   font-family:'Source Sans Pro', sans-serif; 
   font-size: medium;
   font-weight: 700;
@@ -240,11 +260,12 @@ section .title{
   margin-bottom: 40px;
 }
 section .title span{
-  color: #0E2431;
+  color: black;
   font-size: 30px;
   font-weight: 600;
   position: relative;
   padding-bottom: 8px;
+  /* font-family:cursive; */
 }
 section .title span::before,
 section .title span::after{
@@ -264,6 +285,10 @@ section .title span::after{
 }
 .about .about-details .left{
   width: 45%;
+}
+
+.about{
+  background: linear-gradient( 293.5deg,  rgba(181,149,208,1) 3.2%, rgba(251,148,207,1) 9.9%, rgba(181,149,208,1) 22.9%, rgba(251,148,207,1) 36.4%, rgba(181,149,208,1) 50.1%, rgba(251,148,207,1) 61.1%, rgba(181,149,208,1) 71.2%, rgba(251,148,207,1) 84.2%, rgba(181,149,208,1) 92.2% );
 }
 .about .left img{
   height: 400px;
@@ -291,26 +316,27 @@ section .button{
 section .button button{
   outline: none;
   padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 25px;
+  font-size: 23px;
+  margin-top: 10px;
   font-weight: 400;
-  background:#1260A2;
+  background: red;
   color: #fff;
-  border: 2px solid transparent;
   cursor: pointer;
+  border: 2px solid transparent;
   transition: all 0.4s ease;
+  border-radius: 50px;
 }
 section .button button:hover{
-  border-color: #1260A2;
-  background-color: #1DA1F2;
-  color: #1260A2;
+  border-color: #2acaea;
+  background-color: #2acaea;
+  color: black;
 }
 
 
 /* Skills */
 
 .skills{
-   background: #b2b8a3;
+  background: linear-gradient( 89.9deg,  rgba(255,243,110,1) 16.9%, rgba(30,204,214,1) 55.1%, rgba(5,54,154,1) 90.7% );
  }
  .skills .content{
    padding: 40px 0;
@@ -343,11 +369,11 @@ section .button button:hover{
 /* Projects */
 
 .lin{
-  color: #D6274D;
+  color: #3B0000;
 }
 
 .projects{
-  background: #f3f4ed;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
 }
 .projects .boxes{
   display: flex;
@@ -368,8 +394,8 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .projects .boxes .box:hover{
-  background: #536162;
-  color:black;
+  background: #FF0000;
+  color: #fff;
 }
 .projects .boxes .box .icon{
   height: 50px;
@@ -400,7 +426,7 @@ section .button button:hover{
 /* Certifications */
 
 .certification{
-  background: black;
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(62,133,238,1) 1.1%, rgba(227,137,240,1) 43.7%, rgba(243,193,124,1) 89.7% );
 }
 .certification .boxes{
   display: flex;
@@ -421,7 +447,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .certification .boxes .box:hover{
-  background: orangered;
+  background: red;
   color: #fff;
 }
 .certification .boxes .box .icon{
@@ -458,6 +484,10 @@ section .button button:hover{
    box-sizing: border-box;
 }
 
+
+.contact {
+  background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+}
 
 form {
    max-width: 600px;
@@ -563,12 +593,14 @@ footer{
   padding: 10px 0;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  /* color: white; */
 }
 
 footer .text span{
   font-size: 17px;
   font-weight: 400;
-  color: black;
+  color: white;
 }
 footer .text span a{
   font-weight: 500;
@@ -580,7 +612,7 @@ footer .text span a{
 }
 
 footer .social-icons a{
-  color: black;
+  color: white;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -650,7 +682,7 @@ footer .social-icons .git:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+   background: linear-gradient( 137.9deg,  rgba(78,156,226,1) 7.8%, rgba(62,146,69,1) 16%, rgba(251,220,23,1) 32.7%, rgba(242,160,35,1) 50.4%, rgba(253,12,12,1) 71.5%, rgba(192,26,129,1) 83.1% );
     height: 100vh;
     max-width: 400px;
     width: 100%;
@@ -722,11 +754,15 @@ footer .social-icons .git:hover{
   }
   .home .text-3{
     font-size: 40px;
-    color: white;
+    color: darkgreen;
+  }
+
+  .home .text-3 span{
+    color: rgb(255, 81, 0)
   }
   .skills-details .boxes .per{
     font-size: 50px;
-    color: #4070f4;
+    color: red;
   }
 }
 
