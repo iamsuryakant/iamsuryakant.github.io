@@ -517,7 +517,7 @@ form {
   background: rgb(225, 240, 238) url(../images/preload.gif) no-repeat center;
   height: 100vh;
   width: 100%;
-  position: fixed;
+  /* position: relative; */
   background-size: 13%;
   z-index: 100;
 }
@@ -708,7 +708,12 @@ footer .social-icons .git:hover{
   }
   .contact .text{
     width: 100%;
-}
+  }
+
+  #preloader{
+    background-size: 40%;
+  }
+
 }
 
 @media (max-width: 500px){
