@@ -1,3 +1,11 @@
+$(function() {
+$(window).on("load", function() {
+  $('#preloader').fadeOut('slow', function() {
+    $(this).remove();
+  });
+});
+});
+
 // Sticky Navigation Menu JS Code
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
