@@ -91,6 +91,9 @@ nav .navbar .menu li{
 }
 .navbar .menu a:hover{
   color: #2acaea;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color:red;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -234,6 +237,7 @@ nav.sticky .menu-btn{
   font-family:'Source Sans Pro', sans-serif; 
   font-size: medium;
   font-weight: 700;
+  /* text-decoration: underline; */
 }
 section{
   padding-top: 40px;
