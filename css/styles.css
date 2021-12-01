@@ -480,6 +480,29 @@ section .button button:hover{
   color: #fff;
 }
 
+/* Profiles */
+
+#profile{
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );
+}
+
+.profiles{
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.gfg-logo{
+  margin-right: 60px;
+  height: 50px;
+  /* width: 350px; */
+
+}
+
+.leetcode-logo{
+  height: 40px;
+  margin-right: 60px;
+}
+
 /* Contact */
 
 *:before, 
