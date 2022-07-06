@@ -43,7 +43,7 @@ cancelBtn.onclick = function(){
 }
 
 var typed = new Typed(".typing", {
-        strings: ["Developer", "Programmer", "Blogger", "Freelancer"],
+        strings: ["Web Developer !", "Programmer !", "Blogger !"],
         typeSpeed: 100,
         backSpeed: 80,
         loop: true
