@@ -130,14 +130,14 @@
                         I am a competitive programmer and I keep improving my problem solving skills through various
                         contents on different platforms.
                         (See more about it in <a class="des" href="#profile">profiles</a>).
-                    <div class="button">
-                        <button><a title="resume" href="resume/SuryakantThakur_CV.pdf" target="_blank"
-                                style="color:black;">Download CV</a></button>
+                        <div class="button">
+                            <button><a title="resume" href="resume/SuryakantThakur_CV.pdf" target="_blank"
+                                    style="color:black;">Download CV</a></button>
 
-                        <!-- <button class="blog_button"><a title="blog" href="https://iamsuryakant.github.io/blog"
+                            <!-- <button class="blog_button"><a title="blog" href="https://iamsuryakant.github.io/blog"
                                 target="_blank" style="color:black;">Read Blog
                             </a></button> -->
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -392,23 +392,28 @@
         <div class="content">
             <div class="title"><span>Contact Me</span></div>
 
-            <form class="cf" action="https://formspree.io/f/xjvjwdry" method="POST">
+            <form class="cf" name="submit-to-google-sheet">
                 <div class="half left cf">
-                    <input type="text" id="input-name" name="name" placeholder="Name">
-                    <input type="email" id="input-email" name="_replyto" placeholder="Email address">
+                    <input type="text" id="input-name" name="name" placeholder="Name" required>
+                    <input type="email" id="input-email" name="_replyto" placeholder="Email address" required>
                     <input type="text" id="input-subject" name="subject" placeholder="Subject">
                 </div>
                 <div class="half right cf">
-                    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                    <textarea name="message" type="text" id="input-message" placeholder="Message" required></textarea>
                 </div>
                 <input type="submit" value="Submit" id="input-submit">
             </form>
+
+            <span id="msg"></span>
 
             <div class="email">Don't like forms? Send me an <a
                     href="mailto:suryakantthakur825@gmail.com"><span>email.</span></a></div>
         </div>
     </section>
     <hr>
+
+    <!-- action="https://formspree.io/f/xjvjwdry" method="POST" -->
+    
 
     <!-- Footer Section -->
 
