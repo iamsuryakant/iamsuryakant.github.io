@@ -441,6 +441,7 @@ section .button button:hover {
 .skills {
   /* background: linear-gradient( 89.9deg,  rgba(255,243,110,1) 16.9%, rgba(30,204,214,1) 55.1%, rgba(5,54,154,1) 90.7% ); */
   background: #F9F9F9;
+  margin-bottom: 60px;
 }
 
 .skills .content {
@@ -472,7 +473,100 @@ section .button button:hover {
   color: darkred;
 } */
 
-.skillbar {
+/* importing some outer skills */
+
+/* * {
+  width: 100%;
+  height: auto;
+  font-family: "Genos";
+  font-weight: normal;
+} */
+
+/* body {
+  background: #3c3b3f;
+  background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+  overflow-x:hidden;
+} */
+
+/* Skills section */
+/* .skills-section {
+  width: 100%; 
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+ 
+} */
+/* 
+div.text-skills {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 30rem;
+  filter: opacity(0.2);
+  text-align: center;
+} */
+
+/* .skills-section img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  background: transparent;
+  animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+  -webkit-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+  -o-animation: rotate 18s ease-in-out 1s infinite alternate-reverse;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+} */
+/* End of Skills Section */
+
+/* Mobile devices Styling */
+/* @media screen and (max-width: 1300px) {
+  .skills-section {
+    padding: 0 1rem;
+  }
+} */
+
+/* @media screen and (max-width: 1024px) {
+   h1.text-skills {
+    font-size: 16rem;
+    opacity: 0.9;
+  }
+}  */
+
+/* @media screen and (max-width: 768px){ 
+   h1.text-skills {
+    font-size: 12rem;
+  }
+} */
+
+/* @media screen and (max-width: 480px) {
+  .skills-section img {
+    width: 60%;
+  }
+  
+
+} */
+
+/* @media screen and (max-width: 360px) {
+   h1.text-skills {
+    font-size: 5rem;
+  }
+} */
+
+
+
+
+/* .skillbar {
   position: relative;
   display: block;
   margin-bottom: 15px;
@@ -545,7 +639,7 @@ section .button button:hover {
   line-height: 35px;
   color: #ffffff;
   color: rgba(0, 0, 0, 0.938);
-}
+} */
 
 
 /* Projects */
